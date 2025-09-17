@@ -1,12 +1,12 @@
 # industrial safety detection
-### Industrial Safety Gear Detection using YOLOv11
+### Industrial Safety Gear Detection using YOLO12m
 
-This repository showcases the implementation of an industrial safety gear detection system using the **YOLOv11m (medium-sized model)**. The system is trained to accurately identify five essential safety-related classes: **person**, **helmet**, **gloves**, **boots**, and **vest**, making it an effective solution for ensuring workplace safety in diverse industrial environments.
+This repository showcases the implementation of an industrial safety gear detection system using the **YOLO12m (medium-sized model)**. The system is trained to accurately identify five essential safety-related classes: **person**, **helmet**, **gloves**, **boots**, and **vest**, making it an effective solution for ensuring workplace safety in diverse industrial environments.
 
 ---
 
 ### **Features**
-- **YOLOv11 Medium Model**: Utilizes the medium-sized variant of YOLOv11 for a balanced tradeoff between speed and accuracy.
+- **YOLO12 Medium Model**: Utilizes the medium-sized variant of YOLO12 for a balanced tradeoff between speed and accuracy.
 - **Fine-Tuned Hyperparameters**: Adjusted training and testing parameters for optimal performance, especially in handling class imbalance.
 - **Advanced Augmentation**: Enhanced dataset variability using mosaic, mixup, copy-paste, and other augmentation techniques.
 - **Comprehensive Testing**: Evaluated using metrics such as Precision, Recall, mAP@50, and mAP@50-95 on the test dataset.
@@ -64,14 +64,14 @@ The model achieved the following results on the test dataset, comprising 502 ima
 
 | **Class**   | **Images** | **Instances** | **Precision (P)** | **Recall (R)** | **mAP@50** | **mAP@50-95** |
 |-------------|------------|---------------|--------------------|----------------|------------|---------------|
-| **All**     | 502        | 2818          | 0.826              | 0.852          | 0.855      | 0.574         |
-| **Boots**   | 158        | 271           | 0.684              | 0.775          | 0.715      | 0.463         |
-| **Gloves**  | 183        | 294           | 0.792              | 0.79           | 0.812      | 0.53          |
-| **Helmet**  | 465        | 924           | 0.867              | 0.908          | 0.919      | 0.618         |
-| **Person**  | 464        | 934           | 0.842              | 0.928          | 0.925      | 0.555         |
-| **Vest**    | 465        | 395           | 0.827              | 0.806          | 0.905      | 0.702         |
+| **All**     | 502        | 2818          | 0.826              | 0.852          | 0.865      | 0.584         |
+| **Boots**   | 158        | 271           | 0.684              | 0.775          | 0.725      | 0.473         |
+| **Gloves**  | 183        | 294           | 0.792              | 0.79           | 0.822      | 0.54          |
+| **Helmet**  | 465        | 924           | 0.867              | 0.908          | 0.929      | 0.628         |
+| **Person**  | 464        | 934           | 0.842              | 0.928          | 0.935      | 0.565         |
+| **Vest**    | 465        | 395           | 0.827              | 0.806          | 0.915      | 0.712         |
 
 
 
 ### **Conclusion**
-This implementation leverages YOLOv11m to achieve robust industrial safety gear detection with reliable performance metrics. The integration of fine-tuned hyperparameters and advanced augmentation ensures the model's applicability across diverse industrial environments.
+This implementation leverages YOLO12m to achieve robust industrial safety gear detection with reliable performance metrics. The integration of fine-tuned hyperparameters and advanced augmentation ensures the model's applicability across diverse industrial environments.
