@@ -1,4 +1,4 @@
-# industrial_safety_detection
+# industrial safety detection
 ### Industrial Safety Gear Detection using YOLOv11
 
 This repository showcases the implementation of an industrial safety gear detection system using the **YOLOv11m (medium-sized model)**. The system is trained to accurately identify five essential safety-related classes: **person**, **helmet**, **gloves**, **boots**, and **vest**, making it an effective solution for ensuring workplace safety in diverse industrial environments.
